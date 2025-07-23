@@ -1,0 +1,53 @@
+html {
+    font-size: 62.5%
+}
+
+
+
+/* footer styles */
+
+footer {
+    background: #071629;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width:100%;
+    color:white;
+    text-align: center;
+}
+
+footer > section {
+    display:flex;
+    flex-direction: column;
+
+}
+
+footer > section > div {
+    flex:2;
+    display:flex;
+    justify-content: space-between;
+    margin: 50px;
+   
+}
+
+footer > section > p {
+    color:#ffffff;
+    flex:1;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    opacity: 0.35;
+
+
+}
+
+.fa-brands {
+    /* display:flex;
+    flex-direction: row;
+     align-self: center; 
+    justify-content: space-between; */
+    padding: 5px
+}
+

@@ -43,11 +43,7 @@ footer > section > p {
 
 }
 
-.fa-brands {
-    /* display:flex;
-    flex-direction: row;
-     align-self: center; 
-    justify-content: space-between; */
-    padding: 5px
+.fa-brands { 
+     padding: 5px
 }
 

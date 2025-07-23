@@ -3,6 +3,10 @@ body {
 	flex-direction:column;
 }
 
+header {
+	background-color: bisque;
+}
+
 main {
 	display:flex;
 	flex-direction:row;
@@ -12,11 +16,16 @@ main {
 article {
 	flex:2;
 	overflow-y:auto;
+	background-color:blanchedalmond;
 }
 
 aside {
 	flex:1;
 	overflow-y:auto;
+}
+
+a:hover {
+	color:azure
 }
 
 

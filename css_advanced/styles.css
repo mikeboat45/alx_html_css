@@ -2,10 +2,17 @@ html {
     font-size: 62.5%
 }
 
-/* Membership Section Styles */
+/* global styles */
 
+/* @font-face {
+    font-family: 'Source Sans Pro';
+    src: url(assets/fonts/);
+} */
 
-
+span {
+    color: #C271FF;
+    font-family: 'SourceSansPro';
+}
 
 button {
     border-radius: 22px;
@@ -22,6 +29,44 @@ button {
     text-align: center;
     top: calc(50% - 18px/2);
 }
+
+
+
+/* Membership Section Styles */
+
+.membership {
+    background-color: #071629;
+    color: #ffffff;
+    padding: 30px;
+    display:grid;
+    grid-template-columns: 1fr;
+    place-items:center;
+}
+
+.membership > h2 {
+    margin-bottom: 25px;
+}
+
+.members {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    
+}
+
+.members > div {
+    display:flex;
+    flex-direction: column;
+    place-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.members > div > img {
+    place-items:center;
+}
+
+
 
 
 

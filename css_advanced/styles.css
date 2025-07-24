@@ -37,11 +37,46 @@ button {
     top: calc(50% - 18px/2);
 }
 
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+
 /* comments styles */
 
 .comments {
     background-color: #C271FF;
+    color:#ffffff;
+    font-size: 20px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+.comments > div {
+    margin: 80px;
+}
+
+.comments > div:nth-of-type(1) {
+    margin-right: 25px;
+}
+
+.comments > div:nth-of-type(2) {
+    display:flex;
+    flex-direction:column;
+    margin-left: 25px;
+}
+
+.comments > div:nth-of-type(2) > h3 {
+    margin-bottom:0;
+}
+
+.comments > div:nth-of-type(2) > p {
+    margin-top: 0;
+}
+
 
 
 

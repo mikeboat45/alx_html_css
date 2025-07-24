@@ -16,6 +16,7 @@ html {
 
 body {
     font-family: 'SourceSansPro';
+    margin: 0;
 }
 
 h2 {
@@ -49,6 +50,102 @@ blockquote {
   padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+
+/* nav-bar */
+
+nav {
+    display:flex;
+    /* background-color: rgb(172, 172, 94); */
+}
+
+nav > img {
+    padding: 30px;
+}
+
+nav > ul {
+    flex: 1;
+    list-style-type: none;
+    margin: 30px;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+
+}
+
+/* hero-wrapper */
+
+.hero-wrapper {
+    background-image: url(assets/images/Object.png);
+}
+
+
+/* landing-page */
+
+.landing-page {
+    /* height:80vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ffffff;
+}
+
+.landing-page > div:first-of-type {
+    display:grid;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.landing-page > div:first-of-type > div > span {
+    margin: 0 25px 10px;
+}
+
+.landing-page > div > h1 {
+    flex: 2;
+    align-self: center;
+    font-size: 9.6rem;
+    margin-bottom: 0;
+}
+
+.landing-page > div > div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.landing-page > div:nth-of-type(2) > h2 {
+    text-align: center;
+}
+
+.hero-profiles {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.hero-profile > img {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px;
+    
+}
+
+.hero-profile > h3 {
+    text-align: center;
+}
+
+
+
+
 
 /* comments styles */
 
@@ -81,7 +178,7 @@ blockquote {
 }
 
 .comments > div:nth-of-type(2) > p {
-    margin-top: 0;
+    margin: 0;
 }
 
 
@@ -236,7 +333,6 @@ blockquote {
 
 footer {
     background: #071629;
-    /* position: fixed; */
     left: 0;
     bottom: 0;
     width:100%;

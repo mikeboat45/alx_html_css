@@ -7,6 +7,28 @@ html {
 
 
 
+button {
+    border-radius: 22px;
+    border-style: hidden;
+    padding: 10px;
+    color:#ffffff;
+    background: #C271FF;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    top: calc(50% - 18px/2);
+}
+
+
+
+
+
+
+
 /* F.A.Q. styles */
 
 .faq-section {

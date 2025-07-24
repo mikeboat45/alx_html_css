@@ -18,7 +18,7 @@ html {
 .faq-section > h2 {
     grid-column: 1/ -1;
     line-height: 1.5;
-    font-family: 'SourceSansProLight';
+    font-family: 'SourceSansPro';
     font-weight: 300;
     font-size: 60px;
     line-height: 75px;

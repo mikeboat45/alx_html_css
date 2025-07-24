@@ -18,8 +18,15 @@ body {
     font-family: 'SourceSansPro';
 }
 
+h2 {
+    font-size: 2.4rem;
+    font-family: "SourceSansPro-Light";
+}
+
 span {
     color: #C271FF;
+    font-weight: bold;
+    font-family: 'SourceSansPro';
 }
 
 button {
@@ -86,6 +93,7 @@ blockquote {
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-size: 62.5%;
 }
 
 .lecture-display {
@@ -96,17 +104,48 @@ blockquote {
 
 .lecture-display > div {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    margin: 5px;
+    margin: 15px;
     border-radius:5px;
+    font-size: 1.8em;
     
 }
 
 .lectures > img {
     width:100%;
+    
 }
 
+.lectures > h3, p:first-of-type, div {
+    margin: 15px;
+}
 
+.ratings {
+    color:#C271FF;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: end;
+}
 
+.ratings > img {
+    margin: 15px 0 15px 0;
+}
+
+.profile {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile > img {
+    width:20px;
+    height:20px;
+    padding-right: 10px;
+}
+
+.time {
+    font-size: 1.6em;
+    margin-left: 5px;
+}
 
 
 /* Membership Section Styles */
@@ -144,13 +183,6 @@ blockquote {
 }
 
 
-
-
-
-
-
-
-
 /* F.A.Q. styles */
 
 .faq-section {
@@ -160,7 +192,7 @@ blockquote {
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 1fr;
     place-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 320px;
 
 }
 

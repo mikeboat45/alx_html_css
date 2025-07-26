@@ -9,8 +9,9 @@ This project concludes the css module of the frontend development program
 
 
 ## Project Details
-The project involves styling a school website's homepage. Here is the final look: 
-<img alt="css-project-template-alx" src="https://github.com/user-attachments/assets/64b91f01-3da4-4dbc-93f3-51984c60ef5c" />
+The project involves styling a school website's homepage. Here is the final look:  
+
+<img alt="css-project-template-alx" src="https://github.com/user-attachments/assets/64b91f01-3da4-4dbc-93f3-51984c60ef5c" width="300" height="750"  />
 
 
 

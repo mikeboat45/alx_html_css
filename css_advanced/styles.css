@@ -324,10 +324,14 @@ nav > ul {
     font-style: normal;
     font-size: 12px;
     color: #071629;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .ques > div {
     opacity: 0.45;
+    line-height: 2;
+    margin: 0;
 
 }
 
@@ -338,19 +342,18 @@ nav > ul {
 
 footer {
     background: #071629;
-    /* position:fixed;
-    left: 0;
-    bottom: 0; */
     width:100%;
     color:white;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 
 }
 
 footer > section {
     display:flex;
     flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
 
 }
 
@@ -375,13 +378,14 @@ footer > section > p {
 }
 
 .fa-brands { 
-     padding: 5px
+    padding: 5px;
+    
 }
 
 
 /* additional responsive design */
 @media (max-width: 600px) {
-  .questions {
+  .questions, .members {
     grid-template-columns: 1fr;  /* stack into one column */
     column-gap: 0;
   }

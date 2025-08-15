@@ -6,7 +6,7 @@
 
 
 /* ------------------Add fonts----------------------- */
-/* @font-face {
+@font-face {
     font-family: 'SourceSansPro';
     src: url(assets/fonts/SourceSansPro-Regular.otf);
 }
@@ -14,7 +14,7 @@
 @font-face {
     font-family: 'SourceSansPro-Light';
     src: url(assets/fonts/SourceSansPro-ExtraLight.otf);
-} */
+}
 
 
 body {
@@ -132,6 +132,10 @@ h2 {
     padding: 0 50px
 }
 
+.what-we-do p {
+    font-family: 'SourceSansPro-Light';
+}
+
 .advert-tiles {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -165,11 +169,16 @@ h2 {
     height: 90vh;
     display: grid;
     grid-template-rows: 1fr, 2fr, 3fr;
+    padding: 30px;
 }
 
 .our-results h2, p {
     width: 80%;
     justify-self: center;
+}
+
+.our-results p {
+    font-family: 'SourceSansPro-Light';
 }
 
 .result-tiles {

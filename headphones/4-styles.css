@@ -311,7 +311,7 @@ a:hover, :active {
 
 /*-------------------------Resposive Design--------------------------------*/
 /*----------------------tablet-------------------------*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
      
     .hero-wrapper {
     height: 120vh;

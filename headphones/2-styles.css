@@ -150,3 +150,55 @@ h2 {
 /* .holberton_school-icon-ic_hearing:before {
   content: "\e909";
 } */
+
+
+/*---------------------our-results section--------------------*/
+.bg-img-or {
+    height: 100vh;
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    color:#ffffff;
+}
+
+.our-results {
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 1fr, 2fr, 3fr;
+}
+
+.our-results h2, p {
+    width: 80%;
+    justify-self: center;
+}
+
+.result-tiles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+    justify-self:center;
+    width: 80%;
+
+}
+
+.result-tile {
+    position: relative;
+}
+
+.result-tile img {
+    display: block;
+    width: 100%;
+}
+
+.result-tile-details {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+    
+.result-tile-details h4 {
+    font-weight: 600px;
+    font-size: 5rem;
+}

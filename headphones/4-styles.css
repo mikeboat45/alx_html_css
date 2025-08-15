@@ -73,6 +73,16 @@ body {
     align-items: center;
     height:100%;
     padding-bottom:20px;
+    position: relative;
+}
+
+.hero > div {    
+    position: absolute;
+    width: 637px;
+    height: 313px;
+    left: 450px;
+    top: 200px;
+
 }
 
 .hero > .hero-header {
@@ -102,7 +112,7 @@ button {
     line-height: 18px;
     text-align: center;
     top: calc(50% - 18px/2);
-    margin-bottom:40px;
+    margin:40px 0;
     cursor: pointer;
 }
 
@@ -188,7 +198,7 @@ h2 {
 .result-tiles {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 15px;
+    column-gap: 25px;
     justify-self:center;
     width: 80%;
 
@@ -284,4 +294,79 @@ footer {
     font-weight: 400;
     font-size: 12px;
     opacity: 0.35;
+}
+
+
+
+
+/*-------------------------Resposive Design--------------------------------*/
+/*----------------------tablet-------------------------*/
+@media screen and (max-width: 1024px) {
+     
+    .hero-wrapper {
+    height: 120vh;
+    background-image: url(images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    color:#ffffff;
+    }
+
+    .hero {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+    align-items: center;
+    height:90%;
+    padding-bottom:20px;
+    position: relative;
+}
+
+.hero > div {    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    width: 550px;
+    height: 50%;
+    left: 110px;
+    top: 650px;
+
+}
+
+
+    .what-we-do {
+        height: 150vh;
+
+    }
+
+    .advert-tiles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 60px
+    }
+
+
+    .bg-img-or {
+    height: 150vh;
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    color:#ffffff;
+    }
+
+    .result-tiles {
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px
+    }
+    
+}
+
+
+/*-----------------phone-----------------------*/
+@media screen and (max-width: 767px) {
+
 }

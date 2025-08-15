@@ -4,8 +4,23 @@
   box-sizing: border-box;
 }
 
+
+/* ------------------Add fonts----------------------- */
+/* @font-face {
+    font-family: 'SourceSansPro';
+    src: url(assets/fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url(assets/fonts/SourceSansPro-ExtraLight.otf);
+} */
+
+
 body {
     text-align: center;
+    line-height: 1.5;
+    font-family: 'SourceSansPro';
 }
 
 .nav-bar {
@@ -37,13 +52,13 @@ body {
     margin-left: 35px;
     font-weight: bold;
     font-size: 14px;
-        cursor: pointer;
+    cursor: pointer;
 
 }
 
 /* Hero Section */
 .hero-wrapper {
-    height: 90vh;
+    height: 100vh;
     background-image: url(images/headphones_hero_1.jpg);
     background-size: cover;
     background-position: center;
@@ -104,19 +119,25 @@ button {
 /* what-we-do-section */
 h2 {
     font-size: 2.4rem;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .what-we-do {
     height: 90vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
+    padding: 0 50px
 }
 
 .advert-tiles {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 15px;
+    column-gap: 20px;
+    width: 80%;
+
 }
 
 .advert-tile {
@@ -125,3 +146,7 @@ h2 {
     row-gap: 15px;
 
 }
+
+/* .holberton_school-icon-ic_hearing:before {
+  content: "\e909";
+} */

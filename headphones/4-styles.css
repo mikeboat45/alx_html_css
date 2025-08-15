@@ -106,6 +106,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    opacity: 0.9;
+}
+
 .hero > p {
     width:45%;
     margin: 20px auto;

@@ -203,3 +203,24 @@ h2 {
     font-size: 5rem;
 }
 
+
+
+/*-----------------contact page----------------------------*/
+
+.contact-us {
+    height: 80vh;
+    display:grid;
+    place-items:center;
+    margin-top: 25px;
+}
+.contact-us div {
+    height: 50%;
+    width:30vw;
+    line-height: 2;
+}
+
+.contact-info {
+    text-align: left;
+    padding: 20px 0;
+    margin-bottom: 30px;
+} 

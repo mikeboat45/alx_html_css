@@ -116,7 +116,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover, :active {
     opacity: 0.9;
 }
 
@@ -290,6 +290,14 @@ footer {
     cursor: pointer;
 }
 
+a {
+    color:white;
+}
+
+a:hover, :active {
+    color:#ff6565;
+}
+
 .footer-section p {
     margin: 30px;
     font-style: normal;
@@ -361,12 +369,20 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 60px
     }
+
+    .result-tile-details h4{
+        font-size: 48px;
+    }
+
+    .result-tile-details p {
+        font-size: 12px;
+    }
     
 }
 
 
 /*-----------------phone-----------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
 
     .hero-wrapper {
         height: 120vh;

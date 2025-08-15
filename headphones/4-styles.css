@@ -184,6 +184,8 @@ h2 {
     display: grid;
     grid-template-rows: 1fr, 2fr, 3fr;
     padding: 30px;
+    grid-row: 20px;
+    row-gap: 40px;
 }
 
 .our-results h2, p {
@@ -312,9 +314,6 @@ footer {
     }
 
     .hero {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-end; */
     align-items: center;
     height:90%;
     padding-bottom:20px;
@@ -369,4 +368,80 @@ footer {
 /*-----------------phone-----------------------*/
 @media screen and (max-width: 767px) {
 
+    .hero-wrapper {
+        height: 120vh;
+        background-image: url(images/headphones_hero_1.jpg);
+        background-size: cover;
+        background-position: center;
+        color:#ffffff;
+    }
+
+    .hero {
+        align-items: center;
+        height:90%;
+        padding-bottom:20px;
+        position: relative;
+}
+
+    .hero > div {    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        justify-items: center;
+        align-items: center;
+        width: 400px;
+        position: absolute;
+        left: 45px;
+    }
+
+
+    .what-we-do {
+        height: 200vh;
+
+    }
+
+    .advert-tiles {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 60px
+    }
+
+
+    .bg-img-or {
+        height: 290vh;
+        background-image: url(images/headphones_hero_2.jpg);
+        background-size: cover;
+        background-position: center;
+        color:#ffffff;
+    }
+
+    .result-tiles {
+        height: 90vh;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 60px;
+        position: relative;
+    }
+
+    .result-tile img {
+        width: 50%;
+        height: auto;
+        display: flex;
+        align-items:center;        
+    }
+
+
+    .footer-section {
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: center;    
+        place-items: center;
+        align-items: center;
+    }
+
+    .footer-content {
+        display: grid;
+        place-items: center;
+
+    }
 }

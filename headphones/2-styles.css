@@ -165,6 +165,7 @@ h2 {
     height: 90vh;
     display: grid;
     grid-template-rows: 1fr, 2fr, 3fr;
+    padding: 30px;
 }
 
 .our-results h2, p {

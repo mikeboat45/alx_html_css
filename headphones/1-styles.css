@@ -107,6 +107,7 @@ h2 {
 }
 
 .what-we-do {
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -115,10 +116,12 @@ h2 {
 .advert-tiles {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
 }
 
 .advert-tile {
     display:grid;
     grid-template-rows: 2fr, repeat(2, 1fr);
+    row-gap: 15px;
 
 }

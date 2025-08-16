@@ -26,12 +26,15 @@ Here are some screenshots of the the project on different devices
 
 ### Desktop
 
+<img width="450px" height="1000px" alt="01_headphones_desktop@2x" src="https://github.com/user-attachments/assets/758ae4a9-29e1-4d8b-88b8-c4a46f2005ba" />
 
 ### Tablet
 
+<img width="220" height="850" alt="01_headphones_tablet@2x" src="https://github.com/user-attachments/assets/ccd7d15e-4f64-4fb1-958b-52b2332b59b6" />
 
 ### Mobile
 
+<img width="111" height="9720" alt="01_headphones_mobile@2x" src="https://github.com/user-attachments/assets/eac0b2b9-e7d3-4121-80b6-9366f15a2ce7" />
 
 ## Credits
-The project was developed based on UI/UX design provided by [Nicolas Phillipot](https://www.linkedin.com/in/nic0fil/?originalSubdomain=fr "LinkedIn profile")
+The project was developed based on UI/UX design provided by [Nicolas Phillipot](https://www.linkedin.com/in/nic0fil/?originalSubdomain=fr "LinkedIn profile") with icons provided by fontawesome and the Hoberton school.

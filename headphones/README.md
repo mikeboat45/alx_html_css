@@ -15,8 +15,11 @@ This project is a fully responsive web page built from scratch using only HTML5 
 - Accessible: The project includes considerations for accessibility, ensuring a positive experience for users with disabilities.
 
 ## Technologies Used
-![HTML-logo](/alx_html_css/headphones/images/tech-logos/html-5.png "html-5")
-![CSS-logo](/alx_html_css/headphones/images/tech-logos/css-3.png "css-3")
+<img alt="html-5" src="https://github.com/user-attachments/assets/4c41ba31-390a-4233-94a8-bf8a61c2cc62" width="50px" height="50px" />
+<img alt="css-3" src="https://github.com/user-attachments/assets/9102a576-bcea-496b-a2e7-6f72f3f1d478" width="50px" height="50px" />
+<img width="50" height="50" alt="js-logo" src="https://github.com/user-attachments/assets/1ad803ba-0890-4082-9fe1-60d65496a0e0" />
+
+
 
 ## Projects Screenshots
 Here are some screenshots of the the project on different devices

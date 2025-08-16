@@ -166,7 +166,10 @@ h2 {
 
 .icon {
     color:#ff6565;
-    font-size:120px
+    font-size:120px;
+    animation-name: change-color;
+    animation-duration: 14s;
+    animation-timing-function: ease-in-out;
 }
 
 
@@ -193,8 +196,7 @@ h2 {
 .our-results h2, p {
     width: 80%;
     justify-self: center;
-    /* animation-name: change-color;
-    animation-duration: 4s; */
+    
 }
 
 .our-results p {
@@ -321,10 +323,10 @@ a:hover, :active {
 }
 
 @keyframes change-color {
-    0%   {background-color: #ff565d;}
-    25%  {background-color: #BC4749;}
-    50%  {background-color: #FFB7C3;}
-    100% {background-color: #4BDCB1;}
+    0%   {color: #ff565d;}
+    25%  {color: #BC4749;}
+    50%  {color: #FFB7C3;}
+    100% {color: #4BDCB1;}
 }
 
 @keyframes grow-and-spin {
@@ -332,7 +334,7 @@ a:hover, :active {
     transform: scale(1) rotate(0deg);
   }
   50% {
-    transform: scale(1.5) rotate(180deg);
+    transform: scale(1.2) rotate(180deg);
   }
   100% {
     transform: scale(1) rotate(360deg);

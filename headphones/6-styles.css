@@ -162,10 +162,12 @@ h2 {
     display:grid;
     grid-template-rows: 2fr, repeat(2, 1fr);
     row-gap: 15px;
-    
-
 }
 
+.icon {
+    color:#ff6565;
+    font-size:120px
+}
 
 
 

@@ -147,6 +147,11 @@ h2 {
 
 }
 
+.icon {
+    color:#ff6565;
+    font-size:120px
+}
+
 /* .holberton_school-icon-ic_hearing:before {
   content: "\e909";
 } */

@@ -162,8 +162,12 @@ h2 {
     display:grid;
     grid-template-rows: 2fr, repeat(2, 1fr);
     row-gap: 15px;
-    
 
+}
+
+.icon {
+    color:#ff6565;
+    font-size:120px;
 }
 
 
@@ -214,7 +218,6 @@ h2 {
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     position:relative;
     animation: grow-and-spin 12s ease-in-out infinite alternate;
-    
     
 }
 

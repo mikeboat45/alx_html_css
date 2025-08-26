@@ -160,7 +160,7 @@ h2 {
 
 .advert-tile {
     display:grid;
-    grid-template-rows: 2fr, repeat(2, 1fr);
+    grid-template-rows: 2fr 1fr 1fr;
     row-gap: 15px;
 }
 
@@ -187,9 +187,8 @@ h2 {
 .our-results {
     height: 90vh;
     display: grid;
-    grid-template-rows: 1fr, 2fr, 3fr;
+    grid-template-rows: 1fr 2fr 3fr;
     padding: 30px;
-    grid-row: 20px;
     row-gap: 40px;
 }
 

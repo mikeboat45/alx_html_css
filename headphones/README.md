@@ -20,6 +20,12 @@ This project is a fully responsive web page built from scratch using only HTML5 
 <img width="50" height="50" alt="js-logo" src="https://github.com/user-attachments/assets/1ad803ba-0890-4082-9fe1-60d65496a0e0" />
 
 
+## Installation
+- On the main page of this repo, click the green ```< > Code``` button
+- Click on Download Zip
+- Once the zip file is downloaded, extract into your desired folder.
+- Open ```index.html``` in any web browser on your desktop.
+- Done.
 
 ## Projects Screenshots
 Here are some screenshots of the the project on different devices

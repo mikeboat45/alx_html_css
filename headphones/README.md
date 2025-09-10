@@ -24,7 +24,7 @@ This project is a fully responsive web page built from scratch using only HTML5 
 - On the main page of this repo, click the green ```< > Code``` button
 - Click on Download Zip
 - Once the zip file is downloaded, extract into your desired folder.
-- Open ```index.html``` in any web browser on your desktop.
+- Open ```8-index.html``` in any web browser on your desktop.
 - Done.
 
 ## Projects Screenshots
